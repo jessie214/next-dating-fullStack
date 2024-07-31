@@ -19,7 +19,7 @@ export default function RootLayout({
       <body suppressHydrationWarning={true}>
         <Providers>
           <TopNav />
-          <main className="container mx-auto p-5">{children}</main>
+          <main className="container mx-auto">{children}</main>
         </Providers>
       </body>
     </html>
